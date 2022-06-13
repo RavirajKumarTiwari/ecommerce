@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:#2874f0;
+    list-style: none;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 150px;
+    padding: 0 25px;
+}
+nav ul{
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: black;
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 40vw;
+    height: 5vh;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+}
+.search button{
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.search button:hover{
+    border: 2px solid black;
+    color: black;
+}
+.container{
+    min-height: calc(100vh - 10vh - 10vh);
+}
+.slider{
+    margin: 10px auto;
+    width: 90vw;
+    overflow: hidden;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.card{
+    max-width: 90vw;
+    margin: auto;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.card h2{
+    font-family: 'Caveat', cursive;;
+}
+footer{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    font-family: 'Caveat', cursive;
+}
